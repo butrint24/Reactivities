@@ -20,6 +20,7 @@ namespace Persistence.Migrations
                 table: "Values",
                 columns: new[] { "Id", "Name" },
                 values: new object[] { 3, "Value 103" });
+                
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
